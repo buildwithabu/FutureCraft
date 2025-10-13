@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<title>FutureCraft — Home</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/animations.css">
+</head>
+<body>
+
+<header class="navbar glass-card">
+  <a class="logo" href="/index.html">FutureCraft</a>
+  <button id="hamburger" class="hamburger" aria-label="menu">☰</button>
+  <nav class="nav" id="main-nav">
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/gallery.html">Gallery</a></li>
+      <li><a href="/ai-tools.html">AI Tools</a></li>
+      <li><a href="/timeline.html">Timeline</a></li>
+      <li><a href="/team.html">Team</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="btn-glass">Light</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="hero hero-large">
+  <canvas id="particles-canvas"></canvas>
+  <div class="hero-card glass-card">
+    <h1 class="hero-title">FutureCraft</h1>
+    <p class="hero-sub">A life's work imagining the craft of tomorrow — AR, AI, immersive galleries, and generative textiles.</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="/gallery.html">Explore the Gallery</a>
+      <a class="btn-outline" href="/ai-tools.html">Try the AI Tools</a>
+    </div>
+    <div class="hero-meta">
+      <span><strong>200+</strong> Experiments</span>
+      <span><strong>7</strong> Chapters</span>
+      <span><strong>Interactive</strong> Studios</span>
+    </div>
+  </div>
+</section>
+
+<section class="section intro">
+  <div class="container grid-2">
+    <div class="glass-card">
+      <h2>What you will see</h2>
+      <p>From handmade sketches to algorithmic tapestries — see how process, tool, and culture weave together in FutureCraft.</p>
+      <ul class="checks">
+        <li>Curated exhibitions & deep case studies</li>
+        <li>Interactive AI experiments</li>
+        <li>Responsive, immersive visuals</li>
+      </ul>
+    </div>
+    <div class="glass-card">
+      <h2>Featured Module: Algorithmic Brush</h2>
+      <p>A multi-year experiment combining calligraphy, fluid dynamics, and neural style transfer.</p>
+      <a class="btn-glass" href="/gallery.html#algorithmic-brush">Open Module</a>
+    </div>
+  </div>
+</section>
+
+<section class="section highlights alt">
+  <div class="container grid-3">
+    <article class="glass-card feature" data-tilt>
+      <h3>Spatial Studios</h3>
+      <p>Concepts for galleries that respond to movement and recompose under visitor touch.</p>
+    </article>
+    <article class="glass-card feature" data-tilt>
+      <h3>Generative Tapestries</h3>
+      <p>Algorithmic weaves inspired by global motifs and passed through fairness filters.</p>
+    </article>
+    <article class="glass-card feature" data-tilt>
+      <h3>Audio-Visual Synthesis</h3>
+      <p>Visuals driven by music that convert beats into brushstroke-like motion.</p>
+    </article>
+  </div>
+</section>
+
+<section class="cta-large section">
+  <div class="glass-card cta-inner">
+    <h2>See a lifetime of craft</h2>
+    <p>Download the presentation or present this demo to judges with the included script.</p>
+    <div class="cta-actions">
+      <a class="btn-primary" href="/docs/presentation.txt" download>Download Pitch</a>
+      <a class="btn-outline" href="/about.html">Read the Story</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer glass-card">
+  <div class="container">
+    <div>© FutureCraft — Built for Darul Huda ArtFest • Responsive premium demo</div>
+  </div>
+</footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/tsparticles-engine@3/tsparticles.min.js'></script>
+<script src='/js/particles-init.js'></script>
+<script src='/js/main.js'></script>
+<script src='/js/animations.js'></script>
+</body>
+</html>

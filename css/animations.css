@@ -1,0 +1,11 @@
+
+/* entrance */
+.glass-card{opacity:0;transform:translateY(18px);animation:enter .6s forwards}
+@keyframes enter{to{opacity:1;transform:none}}
+
+/* small flash for generated outputs */
+.flash{animation:flash .9s ease}
+@keyframes flash{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:none}}
+
+/* palette swatches */
+.palette .sw{width:56px;height:56px;border-radius:8px;display:inline-block;margin-right:.5rem;box-shadow:0 6px 18px rgba(0,0,0,0.25)}
